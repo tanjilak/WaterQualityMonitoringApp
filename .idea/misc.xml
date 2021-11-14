@@ -5,9 +5,19 @@
       <map>
         <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2760416666666667" />
         <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/button_background.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/circle.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/eclipse.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/ellipse.xml" value="0.29583333333333334" />
         <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/gradient_drawable.xml" value="0.2760416666666667" />
         <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2760416666666667" />
-        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/ic_outline_.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/drawable/vector.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/layout-v21/activity_2.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/layout/activity_2.xml" value="0.375" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/layout/activity_3.xml" value="0.13601823708206687" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/layout/activity_faucet.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/tanji/AndroidStudioProjects/WaterQualityMonitoringApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.29583333333333334" />
       </map>
     </option>
   </component>

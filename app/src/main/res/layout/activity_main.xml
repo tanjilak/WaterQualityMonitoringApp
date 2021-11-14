@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:background="@drawable/gradient_drawable"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button4"
         android:layout_width="276dp"
         android:layout_height="58dp"
         android:layout_marginStart="43dp"
-        android:layout_marginTop="427dp"
+        android:layout_marginTop="356dp"
         android:layout_marginEnd="43dp"
         android:text="@string/sign_in"
         android:textColor="#FFFFFF"
@@ -21,8 +20,11 @@
         app:backgroundTint="#17C1E7"
         app:cornerRadius="40dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -30,14 +32,37 @@
         android:layout_width="276dp"
         android:layout_height="58dp"
         android:layout_marginStart="43dp"
-        android:layout_marginTop="523dp"
+        android:layout_marginTop="440dp"
         android:layout_marginEnd="43dp"
         android:text="@string/sign_up"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:backgroundTint="#17C1E7"
         app:cornerRadius="40dp"
+        app:strokeColor = "@color/white"
+        app:strokeWidth = "1dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="276dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="43dp"
+        android:text="@string/guest"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#17C1E7"
+        app:cornerRadius="40dp"
+        app:strokeColor = "@color/white"
+        app:strokeWidth = "1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
@@ -47,7 +72,7 @@
         android:layout_width="134dp"
         android:layout_height="38dp"
         android:layout_marginStart="119dp"
-        android:layout_marginTop="376dp"
+        android:layout_marginTop="265dp"
         android:layout_marginEnd="119dp"
         android:gravity="center"
         android:text="@string/welcome_msg"
@@ -55,39 +80,38 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView"
+        android:layout_width="208dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="77dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="59dp"
-        android:gravity="center"
-        android:minHeight="48dp"
+        android:layout_marginTop="64dp"
         android:text="@string/title"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageFilterView"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/imageFilterView"
+        app:layout_constraintTop_toTopOf="@+id/imageFilterView"
         tools:ignore="TextContrastCheck" />
 
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="349dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="14dp"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
