@@ -8,7 +8,7 @@
     tools:context=".Activity2">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -28,10 +28,11 @@
         android:id="@+id/imageView"
         android:layout_width="448dp"
         android:layout_height="210dp"
-        android:layout_marginBottom="584dp"
+        android:layout_marginBottom="600dp"
         android:contentDescription="@string/common_header"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ellipse"
         tools:ignore="ImageContrastCheck" />
@@ -81,7 +82,7 @@
         tools:targetApi="lollipop" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button3"
         android:layout_width="276dp"
         android:layout_height="58dp"
         android:layout_marginStart="43dp"
